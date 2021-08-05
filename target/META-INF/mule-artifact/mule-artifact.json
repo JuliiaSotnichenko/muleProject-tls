@@ -1,0 +1,30 @@
+{
+  "configs": [
+    "tsl-one-way.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:tsl-one-way:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.3.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "log4j2.xml",
+        "keystore/localhost.jks",
+        "keystore/truststore.jks",
+        "Server/server-keystore.pfx",
+        "Server/client-keystore.pfx",
+        "client-truststore.jks",
+        "server-keystore.jks",
+        "tsl-one-way.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
